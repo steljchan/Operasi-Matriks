@@ -1,10 +1,10 @@
 import tkinter as tk
 from tkinter import messagebox
-from operations.add import tambah_matriks
-from operations.subtract import kurang_matriks
-from operations.multiply import kali_matriks
-from operations.determinant import pilih_matriks_determinan
-from operations.inverse import pilih_matriks_invers
+from Add import tambah_matriks
+from Sub import kurang_matriks
+from Mul import kali_matriks
+from Determinant import pilih_matriks_determinan
+from Inverse import pilih_matriks_invers
 
 def minta_dimensi_matriks():
     try:
